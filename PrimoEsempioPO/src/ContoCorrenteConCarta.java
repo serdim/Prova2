@@ -5,7 +5,7 @@
 public class ContoCorrenteConCarta extends ContoCorrente {
 
 	/** Il numero della carta di credito associata al conto corrente */
-	public String NumeroCarte;
+	public String CardNumber;
 	/** Il saldo mensile disponibile per le spese */
 	public double SaldoMensile=1500;
 	
