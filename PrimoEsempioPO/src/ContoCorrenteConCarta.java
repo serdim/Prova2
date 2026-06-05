@@ -15,7 +15,10 @@ public class ContoCorrenteConCarta extends ContoCorrente {
 		
 	}
 	
-	//METODI
+	/**
+	 * Metodo per aggiungere una spesa al conto corrente con carta, sottraendo l'importo della spesa al saldo mensile
+	 * @param spesa
+	 */
 	public void aggiungiSpesa(double spesa) {
 		if (spesa>0)
 			SaldoMensile-=spesa;
