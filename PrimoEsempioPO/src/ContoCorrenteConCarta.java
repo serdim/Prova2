@@ -23,7 +23,9 @@ public class ContoCorrenteConCarta extends ContoCorrente {
 	
 	
 
-
+	/**
+	 * Metodo toString per visualizzare le informazioni del conto corrente con carta
+	 */
 	public String toString() {
 		return "Conto: "+IBAN+" con Saldo: "+Saldo+" con Carta Numero "+NumeroCarta+ " e saldo mensile: "+SaldoMensile;
 	}
