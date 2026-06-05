@@ -2,7 +2,7 @@
  * La classe ContoCorrenteConCarta rappresenta un conto corrente che include una carta di credito associata.
  * Questa classe estende la classe ContoCorrente, ereditando le sue caratteristiche e aggiungendo funzionalità specifiche per la gestione della carta di credito, come il numero della carta e il saldo mensile disponibile per le spese.
  */
-public class ContoCorrenteConCarta extends ContoCorrente {
+public class BankAccountWithCard extends ContoCorrente {
 
 	/** Il numero della carta di credito associata al conto corrente */
 	public String CardNumber;
